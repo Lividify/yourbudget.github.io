@@ -1,17 +1,49 @@
-<div class="loader-container">
-  <div class="spinner"></div>
-</div>
-
-<div class="main-content">
-  <h1>Budget Calculator</h1>
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap">
+  <style>
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  </style>
+  </head>
+<html>
+  <head>
+    <title>Budget Calculator</title>
+  </head>
+  <body style="background-color:#6ccd6f6b;">
+</html>
+  <h1><center>Budget Calculator (By MM) </center></h1>
   <p>
-      This is a beta to a my budget calculator tool I hope this comes in good use to you.
+     <center>This is a beta to a my budget calculator tool I hope this comes in good use to you.</center> 
   </p>
 </div>
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
+  <center>
+    <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="John"><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+  <label for="salary">Monthly Salary:</label><br>  
+  Monthly Salary <input type="text" id="firstNumber" /><br>
+  Monthly House Expenses <input type="text" id="secondNumber" /><br> 
+        <input type="button" onClick="multiplyBy()" Value="Multiply" /><br>
+    <p>The Result is : <br>
+        <span id="result"></span>
+      </p>
+</center>
 </form>
+<script>
+      function multiplyBy()
+      {
+      num1 = document.getElementById(
+        "firstNumber").value;
+      num2 = document.getElementById(
+        "secondNumber").value;
+      document.getElementById(
+        "result").innerHTML = num1  * 0.28;
+      }
+    </script>
+  </body>
+  
+
