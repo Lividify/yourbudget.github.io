@@ -1,0 +1,5 @@
+html, body {
+  height: 100%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgb(15, 244, 236), rgb(9, 244, 25));
+}
