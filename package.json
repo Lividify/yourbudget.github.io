@@ -1,5 +1,6 @@
 {
-  "name": "yourbudget.github.io",
+
+"name": "yourbudget.github.io",
   "version": "1.0.0",
   "description": "a visual budget calculator to prepare yourself debt-free!",
   "main": "index.js",
@@ -23,7 +24,4 @@
     "url": "https://github.com/Lividify/yourbudget.github.io/issues"
   },
   "homepage": "https://github.com/Lividify/yourbudget.github.io#readme"
-},
-"publishConfig": {
-  "@michaelforreal:registry": "https://npm.pkg.github.com/budgeting"
-},
+}
