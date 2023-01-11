@@ -1,0 +1,26 @@
+{
+  "name": "yourbudget.github.io",
+  "version": "1.0.0",
+  "description": "a visual budget calculator to prepare yourself debt-free!",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lividify/yourbudget.github.io.git"
+  },
+  "keywords": [
+    "budgeting",
+    "money",
+    "spending",
+    "expenses",
+    "life"
+  ],
+  "author": "michaelforreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lividify/yourbudget.github.io/issues"
+  },
+  "homepage": "https://github.com/Lividify/yourbudget.github.io#readme"
+}
