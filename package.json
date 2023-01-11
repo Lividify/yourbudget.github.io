@@ -23,4 +23,7 @@
     "url": "https://github.com/Lividify/yourbudget.github.io/issues"
   },
   "homepage": "https://github.com/Lividify/yourbudget.github.io#readme"
-}
+},
+"publishConfig": {
+  "@michaelforreal:registry": "https://npm.pkg.github.com/budgeting"
+},
