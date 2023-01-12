@@ -1,4 +1,4 @@
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Lividify/https://github.com/Lividify/yourbudget.github.io">
+https://img.shields.io/github/languages/count/Lividify/https://github.com/Lividify/yourbudget.github.io
 
 
 # yourbudget.github.io
