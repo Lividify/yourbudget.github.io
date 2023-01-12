@@ -1,5 +1,7 @@
+
 <p align="center">
-<a href="https://img.shields.io/github/forks/lividify/yourbudget.github.io?style=social" alt="forks">
+<a href="https://github.com/Lividify/yourbudget.github.io/graphs/contributors" alt = "Contributors">
+<img src="https://img.shields.io/github/forks/lividify/yourbudget.github.io?style=social" alt="forks"/></a>
 
 
 
