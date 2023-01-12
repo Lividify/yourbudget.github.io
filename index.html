@@ -22,38 +22,31 @@
      <center>This is a beta to a my budget calculator tool I hope this comes in good use to you.</center> 
   </p>
 </div>
-<form action="/action_page.php">
-  <center>
-    <label for="fname">First Name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="John"><br>
-  <label for="lname">Last Name:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
-  <label for= "sal"><center>Monthly Salary</center></label><br>
-  <input type="text" id="sal" name="sal" placeholder="$"><br>
-  
-  <input type="button" onClick="multiplyBy()" Value="Submit" /><br>
-    <p>The Result is : <br>
-        <span id="result"></span>
-      </p>
-    </center>
-
+<center>
+<html>
+<body>
+<form action="javascript:calc()">
+Monthly Income: <h1><input type="text" id="input"/><br /></h1>
+% For Mortgage: <h2><input type="text" id="percent"><br /></h2>
+Output: <h3><input type="text" id="output"/><br /></h3>
+<input type="submit" />
+</form>
+</center>
+</body>
+<script>
+function calc() {
+  var i = document.getElementById("input").value;
+  var p = document.getElementById("percent").value;
+  var o = (i/100) * p;
+  document.getElementById("output").value = o;
+}
+</script>
+</html>
 <br>
   <p><center>Lividify© all rights go to Mr.Dilling (name disclosed)</center></p>
   <p><center><a href="https://github.com/Lividify/yourbudget.github.io/blob/main/LICENSE">License</a></center></p>
   <p><center><a href="https://github.com/Lividify/yourbudget.github.io/blob/main/README.md">Project Description</a><center></p>
     <p><center>♥12/25/22♥ Christmas Gift</center></p>
     <br>
-
-
-
-</form>
-<script>
-  function multiplyBy()
-  {
-    num1 = document.getElementById(
-      "sal").value;
-    document.getElementById(
-      "result").innerHTML = num1 / 0.28;
-  }
-</script>
+  </form>
 </body>
