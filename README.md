@@ -1,6 +1,3 @@
-https://img.shields.io/github/languages/count/Lividify/https://github.com/Lividify/yourbudget.github.io
-
-
 # yourbudget.github.io
 A program that calculates your budget in many shapes and forms!
 
