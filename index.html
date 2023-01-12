@@ -28,7 +28,7 @@
   <input type="text" id="fname" name="fname" placeholder="John"><br>
   <label for="lname">Last Name:</label><br>
   <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
-  <label for= "sal"><center>Monthly House Expenses</center></label><br>
+  <label for= "sal"><center>Monthly Salary</center></label><br>
   <input type="text" id="sal" name="sal" placeholder="$"><br>
   
   <input type="button" onClick="multiplyBy()" Value="Submit" /><br>
@@ -53,7 +53,7 @@
     num1 = document.getElementById(
       "sal").value;
     document.getElementById(
-      "result").innerHTML = num1 * 0.28;
+      "result").innerHTML = num1 / 0.28;
   }
 </script>
 </body>
